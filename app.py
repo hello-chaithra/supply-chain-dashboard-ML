@@ -17,8 +17,6 @@ Goal: SQL schema design, ETL basics, Pandas cleaning patterns
 """
 
 # Install
-pip install pandas numpy sqlalchemy streamlit plotly scikit-learn
-
 import pandas as pd
 import numpy as np
 
