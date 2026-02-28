@@ -1,4 +1,4 @@
-# AI-Driven Supply Chain Analytics Dashboard
+# ML-Driven Supply Chain Analytics Dashboard
 
 ![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.54-red?logo=streamlit)
