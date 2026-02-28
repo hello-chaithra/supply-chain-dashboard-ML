@@ -55,7 +55,7 @@ selected_regions = st.sidebar.multiselect("Warehouse Region", options=df['wareho
 
 filtered = df[df['product_category'].isin(selected_categories) & df['warehouse_region'].isin(selected_regions)]
 
-st.title("AI-Driven Supply Chain Analytics Dashboard")
+st.title("ML-Driven Supply Chain Analytics Dashboard")
 st.markdown("Interactive dashboard for inventory forecasting, demand analysis, and logistics insights.")
 
 k1, k2, k3, k4 = st.columns(4)
