@@ -98,7 +98,7 @@ Raw Data Generation (10k records)
 
 ---
 
-## Key Challenge Overcome
+## Key Challenge Overcomed
 - **Migrating from Google Colab to a deployable Python app**: The project began in Google Colab, which uses notebook-specific magic commands like `%%writefile` and `!pip install` that are invalid in standard Python scripts. Transitioning to a clean, self-contained `app.py` required restructuring all code when moving from experimentation to production.
 
 ---
