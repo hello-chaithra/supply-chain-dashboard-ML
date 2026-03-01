@@ -43,45 +43,6 @@ Two models were trained and compared on an 80/20 train-test split:
 
 ---
 
-## Project Structure
-
-```
-supply-chain-dashboard/
-│
-├── app.py                  # Main Streamlit dashboard application
-├── requirements.txt        # Python dependencies
-└── README.md               # You are here
-
-```
----
-
-## Data Pipeline Architecture
-
-```
-Raw Data Generation (10k records)
-        │
-        ▼
-  SQLite Database
-  (SQLAlchemy ORM)
-        │
-        ▼
-  SQL Aggregations          Pandas Transformations
-  • Category performance    • Time-series features
-  • Stockout detection      • Category encoding
-  • Delivery rates          • Feature engineering
-        │                         │
-        └──────────┬──────────────┘
-                   ▼
-         Random Forest Model
-         (demand forecasting)
-                   │
-                   ▼
-        Streamlit Dashboard
-        (interactive UI + Plotly charts)
-```
-
----
-
 ##  Business Insights Discovered
 
 - **Medical supplies & West region** had the highest stockout risk (151 at-risk orders, avg shortfall of 161 units): flagging a supplier or logistics gap
