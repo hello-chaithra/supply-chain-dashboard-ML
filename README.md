@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 An end-to-end, AI-powered supply chain analytics dashboard built with Python and deployed publicly on Streamlit Cloud. The dashboard analyzes **10,000+ supply chain records** to surface actionable insights on inventory risk, logistics performance, and demand forecasting the kind of analysis real operations and data teams run daily.
 
