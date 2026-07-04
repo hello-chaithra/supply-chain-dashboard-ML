@@ -109,7 +109,7 @@ input_data = pd.DataFrame([{
     'category_code': cat_codes[cat], 'region_code': region_codes[region],
     'lead_time_days': lead, 'units_in_stock': stock, 'shipping_cost': 250.0
 }])
-prediction = rf.predict(input_data)[0]
+predictions = rf.predict(input_data)[0]
 st.success(f"Predicted Demand: **{prediction:.0f} units**")
 
 with st.expander("View Raw Data"):
